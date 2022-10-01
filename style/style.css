@@ -13,27 +13,48 @@
 .sign-b {
     background-color: aqua;
     width: 100%;
-    
     max-width: 1240px;
-    margin: auto;
-    margin-top: 30px;
+    margin: 0px auto;
 }
 
 .sign-c {
+    margin: 25px 0px;
     display: flex;
-    flex-wrap: wrap;
+   
 }
 
 .logo-section, .form_a {
     flex-basis: 50%;
-    /*margin-top: 30px;*/
-    padding-bottom: 30px;
+    /*margin-top: 30px;
+    padding-bottom: 30px;*/
 
 }
 
 .logo-section {
     background: linear-gradient(153.25deg, #382492 1.17%, #491A80 40.69%, #581477 95.44%);
     position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /*height: 530px;*/
+}
+
+.gist {
+    width: 330px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 600;
+    font-family: 'Montserrat';
+    font-size: 29px;
+    text-align: center;
+}
+
+.gist span {
+    font-family: 'Montserrat';
+    font-size: 32px;
+    line-height: 39px;
+    color: rgba(252, 24, 255, 1);
+
 }
 
 .circle_a {
@@ -42,8 +63,36 @@
     width: 150px;
     border-radius: 100px;
     position: absolute;
-    Top: 138px;
-    Left:300px;
+    top: 53px;
+    left: 350px;
+}
+
+.circle_b {
+    background: linear-gradient(152.56deg, #A513A8 19.32%, #7A1DAA 58.11%);
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    position: absolute;
+    left: 110px;
+    top: 308px;
+   
+}
+
+.circle_c {
+    background: linear-gradient(152.56deg, #A513A8 19.32%, #7A1DAA 58.11%);
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    position: absolute;
+    left: 510px;
+    top: 448px;
+    
+
+}
+
+.animate__animated {
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
 }
 
 .logo-section img {
@@ -68,7 +117,7 @@
 }
 
 .form_b {
-    width: 80%;
+    width: 70%;
     margin: 24px auto;
 }
 
@@ -115,4 +164,14 @@
     text-align: center;
     border: none;
     border-radius: 8px;
+}
+
+.social_icon {
+    display: flex;
+}
+
+.social_icon li {
+    display: flex;
+    margin-top: 30px;
+    padding-left: 50px;
 }
