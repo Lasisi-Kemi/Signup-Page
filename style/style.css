@@ -176,21 +176,26 @@
    }
 
    .sign-page {
+        height: auto;
         background: linear-gradient(153.25deg, #382492 1.17%, #491A80 40.69%, #581477 95.44%);
         position: fixed;
     }
 
    .sign-b {
         width: 100%;
-        max-width: 574px;
+        max-width: 474px;
         margin: 0px auto;
     }
 
     .sign-c {
-        margin: 25px 0px;
+        margin: 25px auto;
         display: flex; 
         flex-direction: column;
-    }   
+    }  
+    
+    .logo-section, .form_a {
+        flex-basis: content;
+    }
 
    .gist_logo img {
         width: 50px;
