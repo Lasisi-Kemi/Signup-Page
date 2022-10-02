@@ -5,7 +5,7 @@
 
 .sign-page {
     width: 100%;
-    height: 100vh;
+    /*height: 100vh;*/
     background-image: linear-gradient(rgba(237, 78, 207, 1), rgba(156, 105, 208, 1));
     position: fixed;
 }
@@ -176,15 +176,13 @@
    }
 
    .sign-page {
-        width: 100%;
-        height: 100vh;
         background: linear-gradient(153.25deg, #382492 1.17%, #491A80 40.69%, #581477 95.44%);
-        /*position: fixed;*/
+        position: fixed;
     }
 
    .sign-b {
         width: 100%;
-        max-width: 374px;
+        max-width: 574px;
         margin: 0px auto;
     }
 
@@ -193,7 +191,7 @@
         display: flex; 
         flex-direction: column;
     }   
-    
+
    .gist_logo img {
         width: 50px;
         height: 50px
