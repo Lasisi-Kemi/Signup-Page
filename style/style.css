@@ -5,7 +5,7 @@
 
 .sign-page {
     width: 100%;
-    /*height: 100vh;*/
+    height: 100vh;
     background-image: linear-gradient(rgba(237, 78, 207, 1), rgba(156, 105, 208, 1));
     position: fixed;
 }
