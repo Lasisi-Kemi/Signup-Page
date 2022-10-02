@@ -198,21 +198,83 @@
     }
 
     .gist {
-        width: 230px;
+        width: 301px;
         color: rgba(255, 255, 255, 1);
-        font-weight: 600;
+        font-weight: 600px;
         font-family: 'Montserrat';
         font-size: 29px;
         text-align: center;
     }
 
-.gist span {
-    font-family: 'Montserrat';
-    font-size: 32px;
-    line-height: 39px;
-    color: rgba(252, 24, 255, 1);
+    .gist span {
+        font-family: 'Montserrat';
+        font-size: 29px;
+        line-height: 29px;
+        color: rgba(252, 24, 255, 1);
 
-}
+    }
+
+    .form_a {
+        background-color: #F5F5F5;;
+    }
+    
+    .form_b {
+        width: 70%;
+        margin: 18px auto;
+    }
+    
+    .sign_text {
+        background: linear-gradient(180deg, #A513A8 0%, #7A1DAA 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        -moz-text-fill-color: transparent;
+        -webkit-text-fill-color: transparent;
+        padding-bottom: 33px;
+        font-family: 'Montserrat';
+        font-size: 26px;
+        font-weight: 600;
+        line-height: 30px;
+    }
+    
+    .form_b input {
+        background-color: transparent;
+        width: 100%;
+        margin-bottom: 19px;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-bottom: 2px solid rgba(103, 59, 153, 1);
+        font-family: 'Montserrat';
+        font-size: 18;
+        font-weight: 400;
+        line-height: 33px;
+    }
+    
+    .form_b button {
+        background: linear-gradient(90deg, #673B99 13.34%, #E731C5 93.54%);
+        width: 100%;
+        padding: 3px 0px;
+        font-family: 'Montserrat';
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 33px;
+        color: #FFFFFF;
+        text-align: center;
+        border: none;
+        border-radius: 3px;
+    }
+    
+    .social_icon {
+        margin-top: 18px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .social_icon li {
+        display: flex;
+        margin-left:  20px;
+    }
 
     
 
