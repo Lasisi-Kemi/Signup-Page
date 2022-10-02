@@ -11,7 +11,6 @@
 }
 
 .sign-b {
-    background-color: aqua;
     width: 100%;
     max-width: 1240px;
     margin: 0px auto;
@@ -19,25 +18,25 @@
 
 .sign-c {
     margin: 25px 0px;
-    display: flex;
-   
+    display: flex; 
 }
 
 .logo-section, .form_a {
     flex-basis: 50%;
-    /*margin-top: 30px;
-    padding-bottom: 30px;*/
-
 }
 
 .logo-section {
     background: linear-gradient(153.25deg, #382492 1.17%, #491A80 40.69%, #581477 95.44%);
-    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /*height: 530px;*/
+    position: relative;
+}
+
+.gist_logo img {
+    width: 80px;
+    height: 80px
 }
 
 .gist {
@@ -74,8 +73,7 @@
     border-radius: 100%;
     position: absolute;
     left: 110px;
-    top: 308px;
-   
+    top: 358px; 
 }
 
 .circle_c {
@@ -86,16 +84,14 @@
     position: absolute;
     left: 510px;
     top: 448px;
-    
-
 }
 
 .animate__animated {
-    animation-duration: 15s;
+    animation-duration: 4s;
     animation-iteration-count: infinite;
 }
 
-.logo-section img {
+.imageab img {
     width: 210px;
     height: 318px;
 }
@@ -122,19 +118,17 @@
 }
 
 .sign_text {
-    padding-bottom: 33px;
-    font-family: 'Montserrat';
-    font-size: 36px;
-    font-weight: 600;
-    line-height: 44px;
-    color:#7A1DAA;
     background: linear-gradient(180deg, #A513A8 0%, #7A1DAA 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -moz-text-fill-color: transparent;
     -webkit-text-fill-color: transparent;
-
+    padding-bottom: 33px;
+    font-family: 'Montserrat';
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
 }
 
 .form_b input {
@@ -149,7 +143,6 @@
     font-size: 22px;
     font-weight: 400;
     line-height: 39px;
-
 }
 
 .form_b button {
@@ -163,15 +156,63 @@
     color: #FFFFFF;
     text-align: center;
     border: none;
-    border-radius: 8px;
+    border-radius: 5px;
 }
 
 .social_icon {
+    margin-top: 30px;
     display: flex;
+    justify-content: center;
 }
 
 .social_icon li {
     display: flex;
-    margin-top: 30px;
-    padding-left: 50px;
+    margin-left: 30px;
+}
+
+@media screen and (max-width: 768px) {
+   .display_circle {
+        display: none;
+   }
+
+   .sign-b {
+        width: 100%;
+        max-width: 374px;
+        margin: 0px auto;
+    }
+
+    .sign-c {
+        margin: 25px 0px;
+        display: flex; 
+        flex-direction: column;
+    }   
+
+   .logo-section {
+        background: linear-gradient(153.25deg, #382492 1.17%, #491A80 40.69%, #581477 95.44%);
+    }
+
+   .gist_logo img {
+        width: 50px;
+        height: 50px
+    }
+
+    .gist {
+        width: 230px;
+        color: rgba(255, 255, 255, 1);
+        font-weight: 600;
+        font-family: 'Montserrat';
+        font-size: 29px;
+        text-align: center;
+    }
+
+.gist span {
+    font-family: 'Montserrat';
+    font-size: 32px;
+    line-height: 39px;
+    color: rgba(252, 24, 255, 1);
+
+}
+
+    
+
 }
